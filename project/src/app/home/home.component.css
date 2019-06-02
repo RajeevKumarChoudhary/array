@@ -1,0 +1,26 @@
+input{
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.duplicate{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 20px;
+    display: inline-flex;
+}
+
+.unique{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-size: 20px;
+    display: inline-flex;
+}
+
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

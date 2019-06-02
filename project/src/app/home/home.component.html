@@ -1,0 +1,16 @@
+<form>
+  <input type="text" [(ngModel)]="input" [ngModelOptions]="{standalone: true}" placeholder="Enter a Number"
+    (change)="hello()">
+</form>
+<div class="duplicate">
+  <h5 style="font-weight: bolder">Duplicate Entries: &nbsp;</h5>
+  <div *ngFor="let duplicate of duplicate">
+    <h5>{{duplicate}}</h5>
+  </div>
+</div>
+<div class="unique">
+  <h5 style="font-weight: bolder">Unique Entries: &nbsp;</h5>
+  <div *ngFor="let unique of unique">
+    <h5>{{unique}}, &nbsp;</h5>
+  </div>
+</div>
